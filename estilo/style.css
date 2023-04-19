@@ -36,12 +36,16 @@ main {
     margin-top: 30px;
 }
 
-.servicos article {
-    display: flex;
+.servicos article img {
+    height: 150px;
+    width: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .servicos article p {
     text-align: center;
+    max-width: 200px;
 }
 
 #clientes img {
