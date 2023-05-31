@@ -25,14 +25,18 @@ body {
     height: 12rem;
     width: auto;
     padding: 20px;
+    z-index: 30;
 }
 
 
 #backdrop {
     background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
     z-index: 10;
+    width: 100vw;
+    height: 100vh;
 }
 
 #msg {
@@ -44,6 +48,7 @@ body {
     padding: 2rem;
     border: 5px solid green;
     border-radius: 16px;
+    z-index: 20;
 }
 
 #msg:hover {
